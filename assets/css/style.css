@@ -89,7 +89,6 @@ nav a {
   line-height: 18px;
   color: #999;
   text-decoration: none;
-  border-left: 1px solid #efefef;
 }
 
 nav a:first-child {
@@ -114,7 +113,6 @@ footer {
 .sidebar {
   float: right;
   width: 100%;
-  max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -149,7 +147,6 @@ h3,
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -239,8 +236,114 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) {
-   .container {
-	   width: 20%;
-	  }
+  
+	#logo {
+		margin-left:100px;
+	}
+	  
+	nav { 
+		width: 40%;
+	 }
+	 
+	.main-section {
+		float: left;
+	    width: 420px;
+	    margin-left: 100px;
+	 }
+	 
+	.auth-image {
+		width: 100%;
+		margin-bottom: 20px;
+	 }
+	 
+	 .sidebar {
+		 float: right;
+		 width: 270px;
+		 margin-right: 110px;
+	 }
+	 
+	 .work {
+		 width: 100%;
+	}
+	  
 	
+}
+
+@media only screen and (max-width: 768px) {
+   #logo {
+	   margin-left: 20px;
+	 }
+	 
+	.auth-image {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	
+	nav {
+		width: 40%;
+	}
+	
+	.main-section {
+		width: 720px;
+		margin-left: 25px;
+		float: left;
+	}
+	
+	.sidebar {
+		float: left;
+		width: 720px;
+		margin-left: 25px;
+	}
+	
+	.work {
+		width: 46%;
+	
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#logo{
+		width: 100%;	
+	}
+	
+	.auth-image{
+		width: 100%;	
+
+	}
+	
+ 	.mainsection {
+		padding: 30px;
+	}
+	
+	nav {
+		width: 100%;
+		float: left;
+		padding-left: 50px;
+		padding-right: 50px;
+		
+	}
+	
+	nav a {
+		margin-left: 50px;
+		margin-right: 50px;
+		float: left;
+		margin-bottom: 20px;
+	}
+	
+	.main-section {
+		width: 92%;
+		margin-left: 25px;
+		float: left;
+		margin-top: 50px;
+	}
+	
+	.sidebar {
+		float: left;
+		margin-left: 25px;
+		width: 590px;
+	}
+	
+	.work {
+		width: 100%;
+	}
 }
